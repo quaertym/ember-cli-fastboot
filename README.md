@@ -419,7 +419,7 @@ Shoebox gives you great capabilities, but using it in the real app is pretty rou
 One way to abstract the shoebox data storage mechanics is to move the logic into
 the Application Adapter as shown below.
 
-```
+```js
 export default class ApplicationAdapter extends JSONAPIAdapter.extend(
   // ...snip...
 
